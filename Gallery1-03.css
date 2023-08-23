@@ -1,0 +1,249 @@
+*
+{
+  margin: 0px; padding: 0px;
+}
+a 
+{
+  text-decoration: none;
+}
+li
+{
+  list-style: none;
+}
+body 
+{
+  font-family: 'Verdana'; font-size: 16px;
+  color: black;
+}
+/* 헤더 */
+header
+{
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #000;
+  position: fixed;
+  background-color: white;
+}
+.inner-box
+{
+  width: 1180px; height: 120px;
+  border: 3px solid white;
+  position: relative;
+  margin: auto;
+}
+.inner-box h1
+{
+  left: 10px; 
+  bottom: 15px;
+  color: black;
+  position: absolute;
+}
+.inner-box nav
+{
+  overflow: hidden;
+  position: absolute;
+}
+.inner-box nav > ul
+{
+  overflow: hidden;
+  display: flex;
+}
+.inner-box .utility
+{
+  width: 230px; height: 30px;
+  right: 30px;
+  top: 20px;
+}
+.utility > ul > li
+{
+  float: right;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.utility > ul > li a
+{
+  color: gray;
+}
+.inner-box .global
+{
+  font-weight: bold;
+  width: 800px; height: 30px;
+  right: 0px;
+  bottom: 0px;
+}
+.global > ul > li
+{
+  float:left;
+  margin-right: 20px;
+  padding-left: 39px;
+}
+.global > ul > li a
+{
+  color: black;
+  transition: 0.3s;
+}
+.global > ul > li a:hover
+{
+  color: red; 
+}
+/* 헤더 */
+
+/* 섹션 */
+section
+{
+  margin:auto;
+  padding-top: 130px;
+  width: 1000px; height: fit-content;
+}
+#article-box
+{
+  margin-bottom: 10px;
+  position: relative;
+  width: 1000px; height: fit-content;
+  display: flex;
+  gap: 10px;
+}
+article
+{
+  position: relative;
+  float: left; 
+  justify-content: center;
+  display: flex;
+}
+.articles
+{
+  width: fit-content; height:fit-content;
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+
+.txtart1
+{
+  position: absolute;
+	right: 10px;
+  bottom: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.txtart2
+{
+  position: absolute;
+	top: 50px;
+  left: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.txtart3
+{
+  position: absolute;
+	right: 10px;
+  bottom: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.txtart4-1
+{
+  position: absolute;
+	top: 160px;
+  left: 100px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.txtart4-2
+{
+  position: absolute;
+	bottom: 30px;
+  right: 20px;
+  color: gold;
+  font-size: 30px;
+  font-weight: bold;
+}
+.txtart6
+{
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  top: 50%;
+  margin-top: -25px;
+}
+.txtart7
+{
+  width: 450px; height: 150px;
+  position: absolute;
+	right: 30px;
+  bottom: 40px;
+  color: white;
+  font-size: 20px;
+}
+.txtart7 > span
+{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* 푸터 */
+footer
+{
+  text-align: left;
+  width: 100%;
+  background-color: rgb(40, 37, 37);
+}
+.inner-box2  
+{
+  width: 1000px; height: 100px;
+  margin: auto;
+  position: relative;
+}
+.inner-box2 h1
+{
+  left: 10px; 
+  bottom: 15px;
+  color: gray;
+  position: absolute;
+}
+.inner-box2 .footmenu
+{
+  display: flex;
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+}
+.footmenu > ul > li
+{
+  color: gray;
+  float:left;
+  margin-right: 15px;
+}
+
+.footmenu > ul > li a
+{
+  color: gray;
+  transition: 0.3s;
+}
+.footmenu > ul > li a:before
+{
+  content: "|";
+  padding-right: 15px;
+  color: gray !important;
+}
+.footmenu > ul > li a:hover
+{
+  color: red; 
+}
+.info-box
+{
+  width: 1000px; height: fit-content;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin: auto;
+  font-size: 12px;
+  color: gray;
+}

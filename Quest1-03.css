@@ -1,0 +1,207 @@
+*
+{
+  margin: 0px; padding: 0px;
+}
+a 
+{
+  text-decoration: none;
+}
+li
+{
+  list-style: none;
+}
+body 
+{
+  font-family: 'Verdana'; font-size: 16px;
+  color: black;
+}
+
+/* 헤더 */
+header
+{
+  width: 100%;
+  overflow: hidden;
+}
+.inner-box
+{
+  width: 1180px; height: 120px;
+  border: 3px solid white;
+  /* text-align: center; */
+  position: relative;
+  margin: auto;
+}
+.inner-box h1
+{
+  left: 10px; 
+  bottom: 15px;
+  color: black;
+  position: absolute;
+}
+.inner-box nav
+{
+  overflow: hidden;
+  position: absolute;
+}
+.inner-box nav > ul
+{
+  overflow: hidden;
+  display: flex;
+}
+
+.inner-box .utility
+{
+  width: 230px; height: 30px;
+  right: 30px;
+  top: 20px;
+}
+.utility > ul > li
+{
+  float: right;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.utility > ul > li a
+{
+  color: gray;
+}
+
+
+.inner-box .global
+{
+  font-weight: bold;
+  width: 800px; height: 30px;
+  right: 0px;
+  bottom: 0px;
+}
+.global > ul > li
+{
+  float:left;
+  margin-right: 20px;
+  padding-left: 39px;
+}
+.global > ul > li a
+{
+  color: black;
+  transition: 0.3s;
+}
+.global > ul > li a:hover
+{
+  color: red; 
+}
+/* 헤더 */
+
+/* 메인 */
+.main-image
+{
+  margin-top: 5px;
+  width: 100%; height: 590px;
+  background: url(Resource1-03/bg_main.png);
+  display: flex;
+  justify-content: center;
+}
+.inner-box2
+{
+  width: 800px; height: 300px;
+  margin-top: 150px;
+  font-size: 25px;
+  color: white;
+}
+.inner-box2 h1
+{
+  font-size: 85px;
+}
+/* 메인 */
+
+/* 섹션 */
+.news
+{
+  width: 1180px; height: 450px;
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+}
+.news h1
+{
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.articles
+{
+  display: flex;
+  float: left;
+  
+}
+.news article
+{
+  text-align: left;
+  margin-right: 85px;
+  width: 230px; height: fit-content;
+} 
+.news article h1
+{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* 섹션 */
+
+/* 푸터 */
+footer
+{
+  text-align: left;
+  width: 100%;
+  background-color: rgb(40, 37, 37);
+}
+.inner-box3
+{
+  width: 1000px; height: 100px;
+  margin: auto;
+  position: relative;
+}
+.inner-box3 h1
+{
+  left: 10px; 
+  bottom: 15px;
+  color: gray;
+  position: absolute;
+}
+.inner-box3 .footmenu
+{
+  display: flex;
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+}
+.footmenu > ul > li
+{
+  color: gray;
+  float:left;
+  margin-right: 15px;
+}
+
+.footmenu > ul > li a
+{
+  color: gray;
+  transition: 0.3s;
+}
+.footmenu > ul > li a:before
+{
+  content: "|";
+  padding-right: 15px;
+  color: gray !important;
+}
+.footmenu > ul > li a:hover
+{
+  color: red; 
+}
+.info-box
+{
+  width: 1000px; height: fit-content;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin: auto;
+  font-size: 12px;
+  color: gray;
+}
+
+/* 푸터 */
